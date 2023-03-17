@@ -1,0 +1,20 @@
+{
+  "name": "notes-anywhere",
+  "version": "1.0.0",
+  "description": "notes-anywhere- your notes on the cloud",
+  "main": "index.js",
+  "scripts": {
+    "server":"nodemon server.js",
+    "test":"echo \"Error: no test specified\" && exit 1"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
